@@ -1,0 +1,24 @@
+backend:
+  name: github
+  repo: chrisrogash/food-by-chris
+  branch: main
+
+media_folder: "static/images"
+public_folder: "/static/images" 
+
+collections:
+  - name: "dishes"          # internal ID for this collection
+    label: "Dishes"         # human-readable name in CMS
+    folder: "static"
+    files:
+      - file: "static/data.json"
+        label: "Menu Data"
+        name: "menu"
+        format: json
+        fields:
+          - { label: "Dish Name", name: "name", widget: "string" }
+          - { label: "ID", name: "id", widget: "string" }
+          - { label: "Prep Time", name: "prep_time", widget: "number" }
+          - { label: "Cook Time", name: "cook_time", widget: "number" }
+          - { label: "Image URL", name: "image", widget: "image" }
+          - { label: "Tags", name: "tags", widget: "list", allow_add: true, default: [] }
