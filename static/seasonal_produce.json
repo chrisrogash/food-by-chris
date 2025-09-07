@@ -6,7 +6,7 @@
     "Summer": "No",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Apple.jpg"
+    "Image": "./static/images_produce/Apple.jpg"
   },
   {
     "Name": "Apricot",
@@ -15,7 +15,7 @@
     "Summer": "Yes",
     "Autumn": "No",
     "Winter": "No",
-    "Image": "static/images_produce/Apricot.jpg"
+    "Image": "./static/images_produce/Apricot.jpg"
   },
   {
     "Name": "Banana",
@@ -24,7 +24,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Banana.jpg"
+    "Image": "./static/images_produce/Banana.jpg"
   },
   {
     "Name": "Berries",
@@ -33,7 +33,7 @@
     "Summer": "Yes",
     "Autumn": "No",
     "Winter": "No",
-    "Image": "static/images_produce/Berries.jpg"
+    "Image": "./static/images_produce/Berries.jpg"
   },
   {
     "Name": "Cherry",
@@ -42,7 +42,7 @@
     "Summer": "Yes",
     "Autumn": "No",
     "Winter": "No",
-    "Image": "static/images_produce/Cherry.jpg"
+    "Image": "./static/images_produce/Cherry.jpg"
   },
   {
     "Name": "Fig",
@@ -51,7 +51,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "No",
-    "Image": "static/images_produce/Fig.jpg"
+    "Image": "./static/images_produce/Fig.jpg"
   },
   {
     "Name": "Grapefruit",
@@ -60,7 +60,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Grapefruit.jpg"
+    "Image": "./static/images_produce/Grapefruit.jpg"
   },
   {
     "Name": "Grapes",
@@ -69,7 +69,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "No",
-    "Image": "static/images_produce/Grapes.jpg"
+    "Image": "./static/images_produce/Grapes.jpg"
   },
   {
     "Name": "Kiwifruit",
@@ -78,7 +78,7 @@
     "Summer": "No",
     "Autumn": "No",
     "Winter": "Yes",
-    "Image": "static/images_produce/Kiwifruit.jpg"
+    "Image": "./static/images_produce/Kiwifruit.jpg"
   },
   {
     "Name": "Lemon",
@@ -87,7 +87,7 @@
     "Summer": "No",
     "Autumn": "No",
     "Winter": "Yes",
-    "Image": "static/images_produce/Lemon.jpg"
+    "Image": "./static/images_produce/Lemon.jpg"
   },
   {
     "Name": "Lime",
@@ -96,7 +96,7 @@
     "Summer": "No",
     "Autumn": "No",
     "Winter": "Yes",
-    "Image": "static/images_produce/Lime.jpg"
+    "Image": "./static/images_produce/Lime.jpg"
   },
   {
     "Name": "Mandarin (Imperiel)",
@@ -105,7 +105,7 @@
     "Summer": "No",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Mandarin_Imperiel.jpg"
+    "Image": "./static/images_produce/Mandarin_Imperiel.jpg"
   },
   {
     "Name": "Rock Melon",
@@ -114,7 +114,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "No",
-    "Image": "static/images_produce/Rock_Melon.jpg"
+    "Image": "./static/images_produce/Rock_Melon.jpg"
   },
   {
     "Name": "Orange (Navel)",
@@ -123,7 +123,7 @@
     "Summer": "No",
     "Autumn": "No",
     "Winter": "Yes",
-    "Image": "static/images_produce/Orange_Navel.jpg"
+    "Image": "./static/images_produce/Orange_Navel.jpg"
   },
   {
     "Name": "Orange (Valencia)",
@@ -132,7 +132,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "No",
-    "Image": "static/images_produce/Orange_Valencia.jpg"
+    "Image": "./static/images_produce/Orange_Valencia.jpg"
   },
   {
     "Name": "Peach",
@@ -141,7 +141,7 @@
     "Summer": "Yes",
     "Autumn": "No",
     "Winter": "No",
-    "Image": "static/images_produce/Peach.jpg"
+    "Image": "./static/images_produce/Peach.jpg"
   },
   {
     "Name": "Pear",
@@ -150,7 +150,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Pear.jpg"
+    "Image": "./static/images_produce/Pear.jpg"
   },
   {
     "Name": "Plum",
@@ -159,7 +159,7 @@
     "Summer": "Yes",
     "Autumn": "No",
     "Winter": "No",
-    "Image": "static/images_produce/Plum.jpg"
+    "Image": "./static/images_produce/Plum.jpg"
   },
   {
     "Name": "Strawberry",
@@ -168,7 +168,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "No",
-    "Image": "static/images_produce/Strawberry.jpg"
+    "Image": "./static/images_produce/Strawberry.jpg"
   },
   {
     "Name": "Artichoke (Globe)",
@@ -177,7 +177,7 @@
     "Summer": "No",
     "Autumn": "No",
     "Winter": "No",
-    "Image": "static/images_produce/Artichoke_Globe.jpg"
+    "Image": "./static/images_produce/Artichoke_Globe.jpg"
   },
   {
     "Name": "Artichoke (Jerusalem)",
@@ -186,7 +186,7 @@
     "Summer": "No",
     "Autumn": "No",
     "Winter": "Yes",
-    "Image": "static/images_produce/Artichoke_Jerusalem.jpg"
+    "Image": "./static/images_produce/Artichoke_Jerusalem.jpg"
   },
   {
     "Name": "Asparagus",
@@ -195,7 +195,7 @@
     "Summer": "No",
     "Autumn": "No",
     "Winter": "No",
-    "Image": "static/images_produce/Asparagus.jpg"
+    "Image": "./static/images_produce/Asparagus.jpg"
   },
   {
     "Name": "Basil",
@@ -204,7 +204,7 @@
     "Summer": "Yes",
     "Autumn": "No",
     "Winter": "No",
-    "Image": "static/images_produce/Basil.jpg"
+    "Image": "./static/images_produce/Basil.jpg"
   },
   {
     "Name": "Beans",
@@ -213,7 +213,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "No",
-    "Image": "static/images_produce/Beans.jpg"
+    "Image": "./static/images_produce/Beans.jpg"
   },
   {
     "Name": "Beans (Broad)",
@@ -222,7 +222,7 @@
     "Summer": "No",
     "Autumn": "No",
     "Winter": "Yes",
-    "Image": "static/images_produce/Beans_Broad.jpg"
+    "Image": "./static/images_produce/Beans_Broad.jpg"
   },
   {
     "Name": "Beetroot",
@@ -231,7 +231,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Beetroot.jpg"
+    "Image": "./static/images_produce/Beetroot.jpg"
   },
   {
     "Name": "Broccoli",
@@ -240,7 +240,7 @@
     "Summer": "No",
     "Autumn": "No",
     "Winter": "Yes",
-    "Image": "static/images_produce/Broccoli.jpg"
+    "Image": "./static/images_produce/Broccoli.jpg"
   },
   {
     "Name": "Brusseul Sprouts",
@@ -249,7 +249,7 @@
     "Summer": "No",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Brusseul_Sprouts.jpg"
+    "Image": "./static/images_produce/Brusseul_Sprouts.jpg"
   },
   {
     "Name": "Cabbage",
@@ -258,7 +258,7 @@
     "Summer": "No",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Cabbage.jpg"
+    "Image": "./static/images_produce/Cabbage.jpg"
   },
   {
     "Name": "Capsicum",
@@ -267,7 +267,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "No",
-    "Image": "static/images_produce/Capsicum.jpg"
+    "Image": "./static/images_produce/Capsicum.jpg"
   },
   {
     "Name": "Carrot",
@@ -276,7 +276,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Carrot.jpg"
+    "Image": "./static/images_produce/Carrot.jpg"
   },
   {
     "Name": "Cauliflower",
@@ -285,7 +285,7 @@
     "Summer": "No",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Cauliflower.jpg"
+    "Image": "./static/images_produce/Cauliflower.jpg"
   },
   {
     "Name": "Celery",
@@ -294,7 +294,7 @@
     "Summer": "No",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Celery.jpg"
+    "Image": "./static/images_produce/Celery.jpg"
   },
   {
     "Name": "Chillies",
@@ -303,7 +303,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "No",
-    "Image": "static/images_produce/Chillies.jpg"
+    "Image": "./static/images_produce/Chillies.jpg"
   },
   {
     "Name": "Corn",
@@ -312,7 +312,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "No",
-    "Image": "static/images_produce/Corn.jpg"
+    "Image": "./static/images_produce/Corn.jpg"
   },
   {
     "Name": "Cucumber",
@@ -321,7 +321,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "No",
-    "Image": "static/images_produce/Cucumber.jpg"
+    "Image": "./static/images_produce/Cucumber.jpg"
   },
   {
     "Name": "Eggplant",
@@ -330,7 +330,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "No",
-    "Image": "static/images_produce/Eggplant.jpg"
+    "Image": "./static/images_produce/Eggplant.jpg"
   },
   {
     "Name": "Leek",
@@ -339,7 +339,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Leek.jpg"
+    "Image": "./static/images_produce/Leek.jpg"
   },
   {
     "Name": "Lettuce",
@@ -348,7 +348,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Lettuce.jpg"
+    "Image": "./static/images_produce/Lettuce.jpg"
   },
   {
     "Name": "Onion",
@@ -357,7 +357,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Onion.jpg"
+    "Image": "./static/images_produce/Onion.jpg"
   },
   {
     "Name": "Parsley",
@@ -366,7 +366,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Parsley.jpg"
+    "Image": "./static/images_produce/Parsley.jpg"
   },
   {
     "Name": "Parsnip",
@@ -375,7 +375,7 @@
     "Summer": "No",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Parsnip.jpg"
+    "Image": "./static/images_produce/Parsnip.jpg"
   },
   {
     "Name": "Peas",
@@ -384,7 +384,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "No",
-    "Image": "static/images_produce/Peas.jpg"
+    "Image": "./static/images_produce/Peas.jpg"
   },
   {
     "Name": "Peas (Snow)",
@@ -393,7 +393,7 @@
     "Summer": "No",
     "Autumn": "No",
     "Winter": "Yes",
-    "Image": "static/images_produce/Peas_Snow.jpg"
+    "Image": "./static/images_produce/Peas_Snow.jpg"
   },
   {
     "Name": "Potato",
@@ -402,7 +402,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Potato.jpg"
+    "Image": "./static/images_produce/Potato.jpg"
   },
   {
     "Name": "Rhubarb",
@@ -411,7 +411,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Rhubarb.jpg"
+    "Image": "./static/images_produce/Rhubarb.jpg"
   },
   {
     "Name": "Silverbeet",
@@ -420,7 +420,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Silverbeet.jpg"
+    "Image": "./static/images_produce/Silverbeet.jpg"
   },
   {
     "Name": "Spinach",
@@ -429,7 +429,7 @@
     "Summer": "No",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Spinach.jpg"
+    "Image": "./static/images_produce/Spinach.jpg"
   },
   {
     "Name": "Spring Onion",
@@ -438,7 +438,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "Yes",
-    "Image": "static/images_produce/Spring_Onion.jpg"
+    "Image": "./static/images_produce/Spring_Onion.jpg"
   },
   {
     "Name": "Squash",
@@ -447,7 +447,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "No",
-    "Image": "static/images_produce/Squash.jpg"
+    "Image": "./static/images_produce/Squash.jpg"
   },
   {
     "Name": "Sweet Potato",
@@ -456,7 +456,7 @@
     "Summer": "No",
     "Autumn": "Yes",
     "Winter": "No",
-    "Image": "static/images_produce/Sweet_Potato.jpg"
+    "Image": "./static/images_produce/Sweet_Potato.jpg"
   },
   {
     "Name": "Tomato",
@@ -465,7 +465,7 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "No",
-    "Image": "static/images_produce/Tomato.jpg"
+    "Image": "./static/images_produce/Tomato.jpg"
   },
   {
     "Name": "Turnip",
@@ -474,7 +474,7 @@
     "Summer": "No",
     "Autumn": "No",
     "Winter": "Yes",
-    "Image": "static/images_produce/Turnip.jpg"
+    "Image": "./static/images_produce/Turnip.jpg"
   },
   {
     "Name": "Zucchini",
@@ -483,6 +483,6 @@
     "Summer": "Yes",
     "Autumn": "Yes",
     "Winter": "No",
-    "Image": "static/images_produce/Zucchini.jpg"
+    "Image": "./static/images_produce/Zucchini.jpg"
   }
 ]
