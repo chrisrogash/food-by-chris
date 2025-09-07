@@ -12,7 +12,7 @@
     <div class="container mt-4" id="dishContainer"></div>
 
     <script>
-      fetch('{{ url_for("static", filename="data.json") }}')
+      fetch("static/data.json")
         .then((res) => res.json())
         .then((data) => {
           const dishes = data.dishes;

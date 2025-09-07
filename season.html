@@ -94,7 +94,7 @@
       const seasonInputs = document.querySelectorAll(".season-filter");
       const typeInputs = document.querySelectorAll(".type-filter");
 
-      fetch('{{ url_for("static", filename="seasonal_produce.json") }}')
+      fetch("static/seasonal_produce.json")
         .then((res) => res.json())
         .then((produceData) => {
           function render() {
