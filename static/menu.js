@@ -1,4 +1,4 @@
-fetch('data.json')
+fetch('static/data.json')
   .then(res => res.json())
   .then(data => {
     const dishes = data.dishes;

@@ -62,7 +62,7 @@
         "Special choc chips required for Dairy Free.",
         "Video link: https://youtu.be/jRu2aFdRL54?si=Fe3WQe8UIDbCHllv"
       ],
-      "image": "images/000_chocolate_banana_chiaseed_pudding.jpg"
+      "image": "static/images/000_chocolate_banana_chiaseed_pudding.jpg"
     },
     {
       "id": "000_chocolate_banana_chiaseed_pudding",
@@ -105,7 +105,7 @@
         "Apple suggestions: Kanzi (EU), Envy (NZ), Pink Lady (WA), Bravo (WA), Cosmic Crisp (US) - in that order.",
         "Video link: https://youtu.be/jRu2aFdRL54?si=Fe3WQe8UIDbCHllv"
       ],
-      "image": "images/001_apple_pie_chiaseed_pudding.jpg"
+      "image": "static/images/001_apple_pie_chiaseed_pudding.jpg"
     },
     {
       "id": "002_chilli_con_carne",
@@ -147,7 +147,7 @@
         "Gluten Free (!) -> Ensure stock cube has no gluten.",
         "Video link: https://youtu.be/DCvIBlFmujY?si=fjO7zEzUo1PNKGYE"
       ],
-      "image": "images/.jpg"
+      "image": "static/images/.jpg"
     },
     {
       "id": "003_Schnitzel",
@@ -188,7 +188,7 @@
         "Also goes well with mashed/jacket potato.",
         "Video link: https://youtu.be/DCvIBlFmujY?si=fjO7zEzUo1PNKGYE"
       ],
-      "image": "images/.jpg"
+      "image": "static/images/.jpg"
     },
     {
       "id": "004_chicken_pasta_bake",
@@ -230,7 +230,7 @@
         "Gluten Free (!) -> Ensure stock cube has no gluten.",
         "Video link: https://youtu.be/DCvIBlFmujY?si=fjO7zEzUo1PNKGYE"
       ],
-      "image": "images/.jpg"
+      "image": "static/images/.jpg"
     }
   ]
 }
