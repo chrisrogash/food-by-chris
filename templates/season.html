@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Seasonal - By Chris</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-dark text-white">
+    <div class="container mt-4">
+      <h1 class="mb-3">Seasonal Produce - Melbourne</h1>
+
+      <div class="mb-3">
+        <h5>Filter by Season</h5>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input season-filter"
+            type="checkbox"
+            value="Spring"
+            id="seasonSpring"
+          />
+          <label class="form-check-label" for="seasonSpring">Spring</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input season-filter"
+            type="checkbox"
+            value="Summer"
+            id="seasonSummer"
+          />
+          <label class="form-check-label" for="seasonSummer">Summer</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input season-filter"
+            type="checkbox"
+            value="Autumn"
+            id="seasonAutumn"
+          />
+          <label class="form-check-label" for="seasonAutumn">Autumn</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input season-filter"
+            type="checkbox"
+            value="Winter"
+            id="seasonWinter"
+          />
+          <label class="form-check-label" for="seasonWinter">Winter</label>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <h5>Filter by Type</h5>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input type-filter"
+            type="checkbox"
+            value="Fruit"
+            id="typeFruit"
+            checked
+          />
+          <label class="form-check-label" for="typeFruit">Fruit</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input
+            class="form-check-input type-filter"
+            type="checkbox"
+            value="Vegetable"
+            id="typeVegetable"
+            checked
+          />
+          <label class="form-check-label" for="typeVegetable">Vegetable</label>
+        </div>
+      </div>
+
+      <div class="row" id="produceList"></div>
+
+      <a href="/" class="btn btn-outline-light mt-3 mb-3">Back to Menu</a>
+      <p>
+  Source: 
+  <span>
+    <a href="http://seasonalfoodguide.com/melbourne-victoria-seasonal-fresh-produce-guide-fruits-vegetables-in-season-availability-australia.html" target="_blank" rel="noopener noreferrer">
+      Seasonal Food Guide – Melbourne & Victoria Seasonal Produce
+    </a>
+  </span>
+</p>
+    </div>
+
+    <script>
+      const produceList = document.getElementById("produceList");
+      const seasonInputs = document.querySelectorAll(".season-filter");
+      const typeInputs = document.querySelectorAll(".type-filter");
+
+      fetch('{{ url_for("static", filename="seasonal_produce.json") }}')
+        .then((res) => res.json())
+        .then((produceData) => {
+          function render() {
+            produceList.innerHTML = produceData
+              .filter(
+                (item) =>
+                  [...seasonInputs]
+                    .filter((cb) => cb.checked)
+                    .every((cb) => item[cb.value] === "Yes") &&
+                  [...typeInputs].some(
+                    (cb) => cb.checked && cb.value === item.Type
+                  )
+              )
+              .map(
+                (item) => `
+                <div class="col-6 col-md-4 col-lg-3 mb-3">
+                  <div class="card bg-dark text-white h-100">
+                    <img src="${item.Image}" class="card-img-top" alt="${item.Name}" style="object-fit: cover; height: 150px;">
+                    <div class="card-body">
+                      <h6 class="card-title mb-0">${item.Name}</h6>
+                      <small class="text-muted">${item.Type}</small>
+                    </div>
+                  </div>
+                </div>
+              `
+              )
+              .join("");
+          }
+
+          [...seasonInputs, ...typeInputs].forEach((cb) =>
+            cb.addEventListener("change", render)
+          );
+          render();
+        });
+    </script>
+  </body>
+</html>

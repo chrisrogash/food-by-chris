@@ -1,0 +1,236 @@
+{
+  "tags": [
+    {
+      "tag": "gluten_free",
+      "tag_readable": "Gluten Free",
+      "class": "bg-danger"
+    },
+    {
+      "tag": "dairy_free",
+      "tag_readable": "Dairy Free",
+      "class": "bg-warning text-dark"
+    },
+    { "tag": "nut_free", "tag_readable": "Nut Free", "class": "bg-success" },
+    {
+      "tag": "low_fructose",
+      "tag_readable": "Low Fructose",
+      "class": "bg-info text-dark"
+    },
+    { "tag": "vegan", "tag_readable": "Vegan", "class": "bg-primary" },
+    {
+      "tag": "vegetarian",
+      "tag_readable": "Vegetarian",
+      "class": "bg-secondary"
+    }
+  ],
+
+  "dishes": [
+    {
+      "id": "000_chocolate_banana_chiaseed_pudding",
+      "name": "000 Chocolate Banana Chiaseed Pudding",
+      "tags": [
+        "gluten_free",
+        "low_fructose",
+        "nut_free",
+        "vegetarian"
+      ],
+      "prep_time": 10,
+      "cook_time": 5,
+      "ingredients": [
+        { "qty": "2 tbsp", "name": "Chia Seeds" },
+        { "qty": "1/2 cup", "name": "Almond or Oat Milk (any is fine)" },
+        { "qty": "1 1/2 tsp", "name": "Maple Syrup" },
+        { "qty": "1 tbsp", "name": "Cocoa powder" },
+        { "qty": "1 tbsp", "name": "Chocolate Chips" },
+        { "qty": "1 tbsp", "name": "Crushed Almonds" },
+        { "qty": "1", "name": "Banana" }
+      ],
+      "instructions": [
+        "Mix (stir) maple syrup, milk, cocoa powder, chia seeds together in a mason jar (place ingredients in that order).",
+        "Wait ~5 minutes.",
+        "Stir mixture again.",
+        "Refridgerate minimum 4 hours.",
+        "Slice banana, and place chocolate chips, crushed almonds, and banana on top."
+      ],
+      "notes":[
+        "Serves 1",
+        "1x 300ml Mason jar per person.",
+        "Ideally refrigerate overnight.",
+        "Chocolate milk makes this richer.",
+        "Remove almonds for Nut Free.",
+        "Almond milk for Gluten Free.",
+        "Special choc chips required for Dairy Free.",
+        "Video link: https://youtu.be/jRu2aFdRL54?si=Fe3WQe8UIDbCHllv"
+      ],
+      "image": "images/000_chocolate_banana_chiaseed_pudding.jpg"
+    },
+    {
+      "id": "000_chocolate_banana_chiaseed_pudding",
+      "name": "001 Apple Pie Chiaseed Pudding",
+      "tags": [
+        "gluten_free",
+        "dairy_free",
+        "nut_free",
+        "vegetarian",
+        "vegan"
+      ],
+      "prep_time": 10,
+      "cook_time": 5,
+      "ingredients": [
+        { "qty": "2 tbsp", "name": "Chia Seeds" },
+        { "qty": "1/2 cup", "name": "Almond or Oat Milk (any is fine)" },
+        { "qty": "1 1/2 tsp", "name": "Maple Syrup" },
+        { "qty": "1 tbsp", "name": "Apple Sauce" },
+        { "qty": "1/4 tsp", "name": "Cinnamon" },
+        { "qty": "1", "name": "Red Apple" },
+        { "qty": "2 tsp", "name": "Coconut Oil (or butter)" },
+        { "qty": "1 tbsp", "name": "Maple Syrup" },
+        { "qty": "1 tsp", "name": "Cinnamon" },
+        { "qty": "Pinch", "name": "Cinnamon" }
+      ],
+      "instructions": [
+        "Mix (stir) maple syrup, milk, apple sauce, chia seeds, and 1/4 tsp cinnamon together in a mason jar (place ingredients in that order).",
+        "Wait ~5 minutes.",
+        "Stir mixture again.",
+        "Refridgerate minimum 4 hours.",
+        "Peal and slice apple into edible chunks.",
+        "Just before serving, cook apple chunks, 1 tbsp maple syrup, 1 tsp cinnamon in a saucepan lined with the coconut oil.",
+        "Place toppings on top with a pinch of cinnamon."
+      ],
+      "notes":[
+        "Serves 1",
+        "1x 300ml Mason jar per person.",
+        "Ideally refrigerate overnight.",
+        "Almond milk for Gluten Free.",
+        "Apple suggestions: Kanzi (EU), Envy (NZ), Pink Lady (WA), Bravo (WA), Cosmic Crisp (US) - in that order.",
+        "Video link: https://youtu.be/jRu2aFdRL54?si=Fe3WQe8UIDbCHllv"
+      ],
+      "image": "images/001_apple_pie_chiaseed_pudding.jpg"
+    },
+    {
+      "id": "002_chilli_con_carne",
+      "name": "002 Chilli Con Carne",
+      "tags": [
+        "gluten_free",
+        "dairy_free",
+        "nut_free"
+      ],
+      "prep_time": 10,
+      "cook_time": 50,
+      "ingredients": [
+        { "qty": "500g", "name": "Beef Mince" },
+        { "qty": "1", "name": "Brown Onion" },
+        { "qty": "1 tsp", "name": "Chilli Powder" },
+        { "qty": "1 tsp", "name": "Cumin" },
+        { "qty": "1 tbsp", "name": "Oregano" },
+        { "qty": "1 tsp", "name": "Cinnamon" },
+        { "qty": "1 tin", "name": "Diced Tomatoes" },
+        { "qty": "2 tbsp", "name": "Tomato Puree/Paste" },
+        { "qty": "1 tin", "name": "Red Kidney Beans" },
+        { "qty": "1", "name": "Beef Stock Cube" },
+        { "qty": "<500ml", "name": "Hot Water" },
+        { "qty": "1 cup", "name": "Rice" }
+      ],
+      "instructions": [
+        "Dice Onion and brown over medium heat.",
+        "Add 1 tsp chilli powder, 1 tsp cumin, 1tsp cinnamon, beef mince and brown.",
+        "Add diced tomatoes, tomato puree, 1 tbsp oregano, and 1 beef stock cube (crumbled) - mix.",
+        "Add a little bit of hot water, mix, bring to simmer (reduce  heat slightly).", 
+        "Simmer with lid on for 20min. Stirring every ~5min.",
+        "On the side, cook rice and leave to sit.",
+        "Add drained and washed kidney beans to chilli mixture, stir, leave lid off for 10 minutes. Stirring every ~5min.",
+        "Stir again, leave to rest for ~15min. Serve."
+      ],
+      "notes":[
+        "Makes 2 meals.",
+        "Also goes well with mashed/jacket potato.",
+        "Gluten Free (!) -> Ensure stock cube has no gluten.",
+        "Video link: https://youtu.be/DCvIBlFmujY?si=fjO7zEzUo1PNKGYE"
+      ],
+      "image": "images/.jpg"
+    },
+    {
+      "id": "003_Schnitzel",
+      "name": "003 Schnitzel",
+      "tags": [
+        "vegan",
+        "vegetarian",
+        "gluten_free"
+      ],
+      "prep_time": 10,
+      "cook_time": 50,
+      "ingredients": [
+        { "qty": "500g", "name": "Beef Mince" },
+        { "qty": "1", "name": "Brown Onion" },
+        { "qty": "1 tsp", "name": "Chilli Powder" },
+        { "qty": "1 tsp", "name": "Cumin" },
+        { "qty": "1 tbsp", "name": "Oregano" },
+        { "qty": "1 tsp", "name": "Cinnamon" },
+        { "qty": "1 tin", "name": "Diced Tomatoes" },
+        { "qty": "2 tbsp", "name": "Tomato Puree/Paste" },
+        { "qty": "1 tin", "name": "Red Kidney Beans" },
+        { "qty": "1", "name": "Beef Stock Cube" },
+        { "qty": "<500ml", "name": "Hot Water" },
+        { "qty": "1 cup", "name": "Rice" }
+      ],
+      "instructions": [
+        "Dice Onion and brown over medium heat.",
+        "Add 1 tsp chilli powder, 1 tsp cumin, 1tsp cinnamon, beef mince and brown.",
+        "Add diced tomatoes, tomato puree, 1 tbsp oregano, and 1 beef stock cube (crumbled) - mix.",
+        "Add a little bit of hot water, mix, bring to simmer (reduce  heat slightly).", 
+        "Simmer with lid on for 20min. Stirring every ~5min.",
+        "On the side, cook rice and leave to sit.",
+        "Add drained and washed kidney beans to chilli mixture, stir, leave lid off for 10 minutes. Stirring every ~5min.",
+        "Stir again, leave to rest for ~15min. Serve."
+      ],
+      "notes":[
+        "Makes 2 meals.",
+        "Also goes well with mashed/jacket potato.",
+        "Video link: https://youtu.be/DCvIBlFmujY?si=fjO7zEzUo1PNKGYE"
+      ],
+      "image": "images/.jpg"
+    },
+    {
+      "id": "004_chicken_pasta_bake",
+      "name": "004 Chicken Pasta Bake",
+      "tags": [
+        "gluten_free",
+        "dairy_free",
+        "nut_free"
+      ],
+      "prep_time": 10,
+      "cook_time": 50,
+      "ingredients": [
+        { "qty": "500g", "name": "Beef Mince" },
+        { "qty": "1", "name": "Brown Onion" },
+        { "qty": "1 tsp", "name": "Chilli Powder" },
+        { "qty": "1 tsp", "name": "Cumin" },
+        { "qty": "1 tbsp", "name": "Oregano" },
+        { "qty": "1 tsp", "name": "Cinnamon" },
+        { "qty": "1 tin", "name": "Diced Tomatoes" },
+        { "qty": "2 tbsp", "name": "Tomato Puree/Paste" },
+        { "qty": "1 tin", "name": "Red Kidney Beans" },
+        { "qty": "1", "name": "Beef Stock Cube" },
+        { "qty": "<500ml", "name": "Hot Water" },
+        { "qty": "1 cup", "name": "Rice" }
+      ],
+      "instructions": [
+        "Dice Onion and brown over medium heat.",
+        "Add 1 tsp chilli powder, 1 tsp cumin, 1tsp cinnamon, beef mince and brown.",
+        "Add diced tomatoes, tomato puree, 1 tbsp oregano, and 1 beef stock cube (crumbled) - mix.",
+        "Add a little bit of hot water, mix, bring to simmer (reduce  heat slightly).", 
+        "Simmer with lid on for 20min. Stirring every ~5min.",
+        "On the side, cook rice and leave to sit.",
+        "Add drained and washed kidney beans to chilli mixture, stir, leave lid off for 10 minutes. Stirring every ~5min.",
+        "Stir again, leave to rest for ~15min. Serve."
+      ],
+      "notes":[
+        "Makes 2 meals.",
+        "Also goes well with mashed/jacket potato.",
+        "Gluten Free (!) -> Ensure stock cube has no gluten.",
+        "Video link: https://youtu.be/DCvIBlFmujY?si=fjO7zEzUo1PNKGYE"
+      ],
+      "image": "images/.jpg"
+    }
+  ]
+}

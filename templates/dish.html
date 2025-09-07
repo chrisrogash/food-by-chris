@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dish - FOOD by Chris</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-dark text-light">
+    <div class="container mt-4" id="dishContainer"></div>
+
+    <script>
+      fetch('{{ url_for("static", filename="data.json") }}')
+        .then((res) => res.json())
+        .then((data) => {
+          const dishes = data.dishes;
+          const tagsMap = Object.fromEntries(data.tags.map((t) => [t.tag, t]));
+
+          const params = new URLSearchParams(window.location.search);
+          const id = params.get("id");
+          const dish = dishes.find((d) => d.id === id);
+          const container = document.getElementById("dishContainer");
+
+          if (!dish) {
+            container.innerHTML = "<p class='text-light'>Dish not found.</p>";
+            return;
+          }
+
+          const tagSpans = dish.tags
+            .map((t) => {
+              const tag = tagsMap[t];
+              return `<span class="badge ${tag?.class || "bg-dark"} me-1">${
+                tag?.tag_readable || t
+              }</span>`;
+            })
+            .join("");
+
+          container.innerHTML = `
+  <h1 class="text-white">${dish.name}</h1>
+  <p class="text-light">Prep: ${dish.prep_time}m | Cook: ${dish.cook_time}m</p>
+  <p>${tagSpans}</p>
+
+  <div class="row mt-3">
+
+    <div class="col-12 col-md-6">
+      <div class="card shadow-sm rounded-3">
+        <div class="card-body bg-dark rounded-3">
+          <h5 class="card-title text-white">Ingredients</h5>
+          <ul class="text-light">
+            ${dish.ingredients
+              .map((i) => `<li><strong>${i.qty}</strong> ${i.name}</li>`)
+              .join("")}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-6">
+      <div class="card shadow-sm rounded-3">
+        <div class="card-body bg-dark rounded-3">
+          <h5 class="card-title text-white">Notes</h5>
+          <ul class="text-light">
+            ${dish.notes.map((note) => `<li>${note}</li>`).join("")}
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="row mt-3">
+    <div class="col-12">
+      <div class="card shadow-sm rounded-3">
+        <div class="card-body bg-dark rounded-3">
+          <h4 class="text-white">Instructions</h4>
+            <ol class="text-light">
+              ${dish.instructions.map((step) => `<li>${step}</li>`).join("")}
+            </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a href="menu.html" class="btn btn-outline-light mt-3 d-grid gap-2 d-md-inline-block">Back to Menu</a>
+`;
+        });
+    </script>
+  </body>
+</html>
