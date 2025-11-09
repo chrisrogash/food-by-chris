@@ -1,5 +1,18 @@
 [
   {
+    "id": "002_chilli_con_carne",
+    "prep_time": 10,
+    "cook_time": 50,
+    "name": "002 Chilli Con Carne",
+    "tags": [
+      "gluten_free",
+      "dairy_free",
+      "nut_free"
+    ],
+    "html": "recipes_html/002_chilli_con_carne.html",
+    "image": "static/images/002_chilli_con_carne.jpg"
+  },
+  {
     "id": "000_chocolate_banana_chiaseed_pudding",
     "prep_time": 10,
     "cook_time": 5,
@@ -29,27 +42,14 @@
     "image": "static/images/001_apple_pie_chiaseed_pudding.jpg"
   },
   {
-    "id": "002_chilli_con_carne",
-    "prep_time": 10,
-    "cook_time": 50,
-    "name": "002 Chilli Con Carne",
-    "tags": [
-      "gluten_free",
-      "dairy_free",
-      "nut_free"
-    ],
-    "html": "recipes_html/002_chilli_con_carne.html",
-    "image": "static/images/002_chilli_con_carne.jpg"
-  },
-  {
     "id": "003_Schnitzel",
-    "prep_time": 10,
-    "cook_time": 50,
+    "prep_time": 25,
+    "cook_time": 25,
     "name": "003 Schnitzel",
     "tags": [
-      "vegan",
-      "vegetarian",
-      "gluten_free"
+      "dairy_free",
+      "nut_free",
+      "tag_fructose"
     ],
     "html": "recipes_html/003_Schnitzel.html",
     "image": "static/images/003_Schnitzel.jpg"
