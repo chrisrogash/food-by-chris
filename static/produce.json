@@ -1,0 +1,488 @@
+[
+  {
+    "Name": "Apple",
+    "Type": "Fruit",
+    "Spring": "No",
+    "Summer": "No",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Apple.jpg"
+  },
+  {
+    "Name": "Apricot",
+    "Type": "Fruit",
+    "Spring": "No",
+    "Summer": "Yes",
+    "Autumn": "No",
+    "Winter": "No",
+    "Image": "./static/images_produce/Apricot.jpg"
+  },
+  {
+    "Name": "Banana",
+    "Type": "Fruit",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Banana.jpg"
+  },
+  {
+    "Name": "Berries",
+    "Type": "Fruit",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "No",
+    "Winter": "No",
+    "Image": "./static/images_produce/Berries.jpg"
+  },
+  {
+    "Name": "Cherry",
+    "Type": "Fruit",
+    "Spring": "No",
+    "Summer": "Yes",
+    "Autumn": "No",
+    "Winter": "No",
+    "Image": "./static/images_produce/Cherry.jpg"
+  },
+  {
+    "Name": "Fig",
+    "Type": "Fruit",
+    "Spring": "No",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "No",
+    "Image": "./static/images_produce/Fig.jpg"
+  },
+  {
+    "Name": "Grapefruit",
+    "Type": "Fruit",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Grapefruit.jpg"
+  },
+  {
+    "Name": "Grapes",
+    "Type": "Fruit",
+    "Spring": "No",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "No",
+    "Image": "./static/images_produce/Grapes.jpg"
+  },
+  {
+    "Name": "Kiwifruit",
+    "Type": "Fruit",
+    "Spring": "No",
+    "Summer": "No",
+    "Autumn": "No",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Kiwifruit.jpg"
+  },
+  {
+    "Name": "Lemon",
+    "Type": "Fruit",
+    "Spring": "Yes",
+    "Summer": "No",
+    "Autumn": "No",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Lemon.jpg"
+  },
+  {
+    "Name": "Lime",
+    "Type": "Fruit",
+    "Spring": "Yes",
+    "Summer": "No",
+    "Autumn": "No",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Lime.jpg"
+  },
+  {
+    "Name": "Mandarin (Imperiel)",
+    "Type": "Fruit",
+    "Spring": "Yes",
+    "Summer": "No",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Mandarin_Imperiel.jpg"
+  },
+  {
+    "Name": "Rock Melon",
+    "Type": "Fruit",
+    "Spring": "No",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "No",
+    "Image": "./static/images_produce/Rock_Melon.jpg"
+  },
+  {
+    "Name": "Orange (Navel)",
+    "Type": "Fruit",
+    "Spring": "No",
+    "Summer": "No",
+    "Autumn": "No",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Orange_Navel.jpg"
+  },
+  {
+    "Name": "Orange (Valencia)",
+    "Type": "Fruit",
+    "Spring": "No",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "No",
+    "Image": "./static/images_produce/Orange_Valencia.jpg"
+  },
+  {
+    "Name": "Peach",
+    "Type": "Fruit",
+    "Spring": "No",
+    "Summer": "Yes",
+    "Autumn": "No",
+    "Winter": "No",
+    "Image": "./static/images_produce/Peach.jpg"
+  },
+  {
+    "Name": "Pear",
+    "Type": "Fruit",
+    "Spring": "No",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Pear.jpg"
+  },
+  {
+    "Name": "Plum",
+    "Type": "Fruit",
+    "Spring": "No",
+    "Summer": "Yes",
+    "Autumn": "No",
+    "Winter": "No",
+    "Image": "./static/images_produce/Plum.jpg"
+  },
+  {
+    "Name": "Strawberry",
+    "Type": "Fruit",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "No",
+    "Image": "./static/images_produce/Strawberry.jpg"
+  },
+  {
+    "Name": "Artichoke (Globe)",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "No",
+    "Autumn": "No",
+    "Winter": "No",
+    "Image": "./static/images_produce/Artichoke_Globe.jpg"
+  },
+  {
+    "Name": "Artichoke (Jerusalem)",
+    "Type": "Vegetable",
+    "Spring": "No",
+    "Summer": "No",
+    "Autumn": "No",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Artichoke_Jerusalem.jpg"
+  },
+  {
+    "Name": "Asparagus",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "No",
+    "Autumn": "No",
+    "Winter": "No",
+    "Image": "./static/images_produce/Asparagus.jpg"
+  },
+  {
+    "Name": "Basil",
+    "Type": "Vegetable",
+    "Spring": "No",
+    "Summer": "Yes",
+    "Autumn": "No",
+    "Winter": "No",
+    "Image": "./static/images_produce/Basil.jpg"
+  },
+  {
+    "Name": "Beans",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "No",
+    "Image": "./static/images_produce/Beans.jpg"
+  },
+  {
+    "Name": "Beans (Broad)",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "No",
+    "Autumn": "No",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Beans_Broad.jpg"
+  },
+  {
+    "Name": "Beetroot",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Beetroot.jpg"
+  },
+  {
+    "Name": "Broccoli",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "No",
+    "Autumn": "No",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Broccoli.jpg"
+  },
+  {
+    "Name": "Brusseul Sprouts",
+    "Type": "Vegetable",
+    "Spring": "No",
+    "Summer": "No",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Brusseul_Sprouts.jpg"
+  },
+  {
+    "Name": "Cabbage",
+    "Type": "Vegetable",
+    "Spring": "No",
+    "Summer": "No",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Cabbage.jpg"
+  },
+  {
+    "Name": "Capsicum",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "No",
+    "Image": "./static/images_produce/Capsicum.jpg"
+  },
+  {
+    "Name": "Carrot",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Carrot.jpg"
+  },
+  {
+    "Name": "Cauliflower",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "No",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Cauliflower.jpg"
+  },
+  {
+    "Name": "Celery",
+    "Type": "Vegetable",
+    "Spring": "No",
+    "Summer": "No",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Celery.jpg"
+  },
+  {
+    "Name": "Chillies",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "No",
+    "Image": "./static/images_produce/Chillies.jpg"
+  },
+  {
+    "Name": "Corn",
+    "Type": "Vegetable",
+    "Spring": "No",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "No",
+    "Image": "./static/images_produce/Corn.jpg"
+  },
+  {
+    "Name": "Cucumber",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "No",
+    "Image": "./static/images_produce/Cucumber.jpg"
+  },
+  {
+    "Name": "Eggplant",
+    "Type": "Vegetable",
+    "Spring": "No",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "No",
+    "Image": "./static/images_produce/Eggplant.jpg"
+  },
+  {
+    "Name": "Leek",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Leek.jpg"
+  },
+  {
+    "Name": "Lettuce",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Lettuce.jpg"
+  },
+  {
+    "Name": "Onion",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Onion.jpg"
+  },
+  {
+    "Name": "Parsley",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Parsley.jpg"
+  },
+  {
+    "Name": "Parsnip",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "No",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Parsnip.jpg"
+  },
+  {
+    "Name": "Peas",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "No",
+    "Image": "./static/images_produce/Peas.jpg"
+  },
+  {
+    "Name": "Peas (Snow)",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "No",
+    "Autumn": "No",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Peas_Snow.jpg"
+  },
+  {
+    "Name": "Potato",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Potato.jpg"
+  },
+  {
+    "Name": "Rhubarb",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Rhubarb.jpg"
+  },
+  {
+    "Name": "Silverbeet",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Silverbeet.jpg"
+  },
+  {
+    "Name": "Spinach",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "No",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Spinach.jpg"
+  },
+  {
+    "Name": "Spring Onion",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Spring_Onion.jpg"
+  },
+  {
+    "Name": "Squash",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "No",
+    "Image": "./static/images_produce/Squash.jpg"
+  },
+  {
+    "Name": "Sweet Potato",
+    "Type": "Vegetable",
+    "Spring": "No",
+    "Summer": "No",
+    "Autumn": "Yes",
+    "Winter": "No",
+    "Image": "./static/images_produce/Sweet_Potato.jpg"
+  },
+  {
+    "Name": "Tomato",
+    "Type": "Vegetable",
+    "Spring": "No",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "No",
+    "Image": "./static/images_produce/Tomato.jpg"
+  },
+  {
+    "Name": "Turnip",
+    "Type": "Vegetable",
+    "Spring": "No",
+    "Summer": "No",
+    "Autumn": "No",
+    "Winter": "Yes",
+    "Image": "./static/images_produce/Turnip.jpg"
+  },
+  {
+    "Name": "Zucchini",
+    "Type": "Vegetable",
+    "Spring": "Yes",
+    "Summer": "Yes",
+    "Autumn": "Yes",
+    "Winter": "No",
+    "Image": "./static/images_produce/Zucchini.jpg"
+  }
+]

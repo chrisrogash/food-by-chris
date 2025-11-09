@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Seasonal - By Chris</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: url("static/images/background_home.jpg") no-repeat center center fixed;
+        background-size: cover;
+      }
+      .produce-card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body class="bg-dark text-white">
+    <div class="container mt-4 bg-dark rounded-5 border border-3 p-4">
+      <h1 class="display-1 fw-bold mb-3">Seasonal Produce</h1>
+
+      <div id="produceGrid" class="row g-3"></div>
+
+      <p class="mt-4">
+        Source:
+        <a
+          href="http://seasonalfoodguide.com/melbourne-victoria-seasonal-fresh-produce-guide-fruits-vegetables-in-season-availability-australia.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-info"
+        >
+          Seasonal Food Guide – Melbourne & Victoria Seasonal Produce
+        </a>
+      </p>
+    </div>
+
+    <script src="static/produce.js"></script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+{
+      "id": "002_chilli_con_carne",
+      "name": "002 Chilli Con Carne",
+      "tags": [
+        "gluten_free",
+        "dairy_free",
+        "nut_free"
+      ],
+      "prep_time": 10,
+      "cook_time": 50,
+      "ingredients": [
+        { "qty": "500g", "name": "Beef Mince" },
+        { "qty": "1", "name": "Brown Onion" },
+        { "qty": "1 tsp", "name": "Chilli Powder" },
+        { "qty": "1 tsp", "name": "Cumin" },
+        { "qty": "1 tbsp", "name": "Oregano" },
+        { "qty": "1 tsp", "name": "Cinnamon" },
+        { "qty": "1 tin", "name": "Diced Tomatoes" },
+        { "qty": "2 tbsp", "name": "Tomato Puree/Paste" },
+        { "qty": "1 tin", "name": "Red Kidney Beans" },
+        { "qty": "1", "name": "Beef Stock Cube" },
+        { "qty": "<500ml", "name": "Hot Water" },
+        { "qty": "1 cup", "name": "Rice" }
+      ],
+      "instructions": [
+        "Dice Onion and brown over medium heat.",
+        "Add 1 tsp chilli powder, 1 tsp cumin, 1tsp cinnamon, beef mince and brown.",
+        "Add diced tomatoes, tomato puree, 1 tbsp oregano, and 1 beef stock cube (crumbled) - mix.",
+        "Add a little bit of hot water, mix, bring to simmer (reduce  heat slightly).", 
+        "Simmer with lid on for 20min. Stirring every ~5min.",
+        "On the side, cook rice and leave to sit.",
+        "Add drained and washed kidney beans to chilli mixture, stir, leave lid off for 10 minutes. Stirring every ~5min.",
+        "Stir again, leave to rest for ~15min. Serve."
+      ],
+      "notes":[
+        "Makes 2 meals.",
+        "Also goes well with mashed/jacket potato.",
+        "Gluten Free (!) -> Ensure stock cube has no gluten.",
+        "Video link: https://youtu.be/DCvIBlFmujY?si=fjO7zEzUo1PNKGYE"
+      ],
+      "image": "../static/images/.jpg"
+    }

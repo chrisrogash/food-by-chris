@@ -1,0 +1,9 @@
+services:
+  food-by-chris:
+    build: .
+    container_name: food-by-chris
+    volumes:
+      - /home/server/docker/projects/food-by-chris:/app
+    ports:
+      - "5469:5469"
+    restart: unless-stopped

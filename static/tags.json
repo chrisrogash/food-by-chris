@@ -1,0 +1,24 @@
+[
+    {
+    "tag": "gluten_free",
+    "tag_readable": "Gluten Free",
+    "class": "bg-danger"
+    },
+    {
+    "tag": "dairy_free",
+    "tag_readable": "Dairy Free",
+    "class": "bg-warning text-dark"
+    },
+    { "tag": "nut_free", "tag_readable": "Nut Free", "class": "bg-success" },
+    {
+    "tag": "low_fructose",
+    "tag_readable": "Low Fructose",
+    "class": "bg-info text-dark"
+    },
+    { "tag": "vegan", "tag_readable": "Vegan", "class": "bg-primary" },
+    {
+    "tag": "vegetarian",
+    "tag_readable": "Vegetarian",
+    "class": "bg-secondary"
+    }
+]

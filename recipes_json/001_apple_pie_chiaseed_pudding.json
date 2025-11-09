@@ -1,0 +1,43 @@
+{
+      "id": "001_apple_pie_chiaseed_pudding",
+      "name": "001 Apple Pie Chiaseed Pudding",
+      "tags": [
+        "gluten_free",
+        "dairy_free",
+        "nut_free",
+        "vegetarian",
+        "vegan"
+      ],
+      "prep_time": 10,
+      "cook_time": 5,
+      "ingredients": [
+        { "qty": "2 tbsp", "name": "Chia Seeds" },
+        { "qty": "1/2 cup", "name": "Almond or Oat Milk (any is fine)" },
+        { "qty": "1 1/2 tsp", "name": "Maple Syrup" },
+        { "qty": "1 tbsp", "name": "Apple Sauce" },
+        { "qty": "1/4 tsp", "name": "Cinnamon" },
+        { "qty": "1", "name": "Red Apple" },
+        { "qty": "2 tsp", "name": "Coconut Oil (or butter)" },
+        { "qty": "1 tbsp", "name": "Maple Syrup" },
+        { "qty": "1 tsp", "name": "Cinnamon" },
+        { "qty": "Pinch", "name": "Cinnamon" }
+      ],
+      "instructions": [
+        "Mix (stir) maple syrup, milk, apple sauce, chia seeds, and 1/4 tsp cinnamon together in a mason jar (place ingredients in that order).",
+        "Wait ~5 minutes.",
+        "Stir mixture again.",
+        "Refridgerate minimum 4 hours.",
+        "Peal and slice apple into edible chunks.",
+        "Just before serving, cook apple chunks, 1 tbsp maple syrup, 1 tsp cinnamon in a saucepan lined with the coconut oil.",
+        "Place toppings on top with a pinch of cinnamon."
+      ],
+      "notes":[
+        "Serves 1",
+        "1x 300ml Mason jar per person.",
+        "Ideally refrigerate overnight.",
+        "Almond milk for Gluten Free.",
+        "Apple suggestions: Kanzi (EU), Envy (NZ), Pink Lady (WA), Bravo (WA), Cosmic Crisp (US) - in that order.",
+        "Video link: https://youtu.be/jRu2aFdRL54?si=Fe3WQe8UIDbCHllv"
+      ],
+      "image": "../static/images/001_apple_pie_chiaseed_pudding.jpg"
+    }

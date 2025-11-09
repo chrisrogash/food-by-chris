@@ -1,0 +1,39 @@
+{
+      "id": "000_chocolate_banana_chiaseed_pudding",
+      "name": "000 Chocolate Banana Chiaseed Pudding",
+      "tags": [
+        "gluten_free",
+        "low_fructose",
+        "nut_free",
+        "vegetarian"
+      ],
+      "prep_time": 10,
+      "cook_time": 5,
+      "ingredients": [
+        { "qty": "2 tbsp", "name": "Chia Seeds" },
+        { "qty": "1/2 cup", "name": "Almond or Oat Milk (any is fine)" },
+        { "qty": "1 1/2 tsp", "name": "Maple Syrup" },
+        { "qty": "1 tbsp", "name": "Cocoa powder" },
+        { "qty": "1 tbsp", "name": "Chocolate Chips" },
+        { "qty": "1 tbsp", "name": "Crushed Almonds" },
+        { "qty": "1", "name": "Banana" }
+      ],
+      "instructions": [
+        "Mix (stir) maple syrup, milk, cocoa powder, chia seeds together in a mason jar (place ingredients in that order).",
+        "Wait ~5 minutes.",
+        "Stir mixture again.",
+        "Refridgerate minimum 4 hours.",
+        "Slice banana, and place chocolate chips, crushed almonds, and banana on top."
+      ],
+      "notes":[
+        "Serves 1",
+        "1x 300ml Mason jar per person.",
+        "Ideally refrigerate overnight.",
+        "Chocolate milk makes this richer.",
+        "Remove almonds for Nut Free.",
+        "Almond milk for Gluten Free.",
+        "Special choc chips required for Dairy Free.",
+        "Video link: https://youtu.be/jRu2aFdRL54?si=Fe3WQe8UIDbCHllv"
+      ],
+      "image": "../static/images/000_chocolate_banana_chiaseed_pudding.jpg"
+    }
