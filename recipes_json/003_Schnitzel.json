@@ -39,5 +39,5 @@
         "Buy ~1.5kg chicken from supermarket, but make sure it has 4 fillets. 2 (halved) for use now, can freeze remaining.",
         "Makes 4 schnitzels"        
       ],
-      "image": "food-by-chris/static/images/003_Schnitzel.jpg"
+      "image": "/static/images/003_Schnitzel.jpg"
     }
