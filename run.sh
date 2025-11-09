@@ -13,13 +13,21 @@ git config --global --add safe.directory /app
 # CONNECT WITH GIT
 cd /app
 
-if [ ! -d ".git" ]; then # Initialize git if not already a repo
+if [ ! -d ".git" ]; then
   git init
+  git checkout -b main  # create main branch explicitly
 fi
 
-if ! git remote | grep -q "origin"; then # Add remote if it doesn't exist
+if ! git remote | grep -q "origin"; then
   git remote add origin git@github.com:chrisrogash/food-by-chris.git
 fi
+
+# make sure there’s at least one commit
+if [ -z "$(git rev-parse --verify HEAD 2>/dev/null)" ]; then
+  git add .
+  git commit -m "Initial commit"
+fi
+
 
 # install admin portal requirements
 pip install --no-cache-dir -r /app/admin/requirements.txt
