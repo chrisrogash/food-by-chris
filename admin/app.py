@@ -72,7 +72,7 @@ def generate():
 @app.route("/generate_html", methods=["POST"])
 def generate_html():
     import subprocess
-    result = subprocess.run(["python3.12", "recipe_json_to_html.py"], capture_output=True, text=True)
+    result = subprocess.run(["python3.12", "admin/recipe_json_to_html.py"], capture_output=True, text=True)
     return result.stdout or result.stderr
 
 @app.route("/sync", methods=["POST"])
