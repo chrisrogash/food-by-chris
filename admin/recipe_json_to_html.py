@@ -114,7 +114,7 @@ for json_file in input_folder.glob("*.json"):
 
     html_content = template.format(
         name=r["name"],
-        image=r.get("image", ""),
+        image=f"../{r.get("image", "")}",
         prep_time=r.get("prep_time", 0),
         cook_time=r.get("cook_time", 0),
         ingredients=ingredients_html,
