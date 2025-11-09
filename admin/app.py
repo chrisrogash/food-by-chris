@@ -2,7 +2,7 @@ import os, re, json, subprocess
 from flask import Flask, render_template, request, jsonify
 
 
-app = Flask(__name__, template_folder='.', static_folder="../static")
+app = Flask(__name__, template_folder='.', static_folder="static")
 
 RECIPES_DIR = "/app/recipes_json"
 IMAGES_DIR = "/app/static/images"
@@ -56,7 +56,7 @@ def generate():
         ],
         "instructions": [i.strip() for i in data["instructions"].splitlines() if i.strip()],
         "notes": [n.strip() for n in data["notes"].splitlines() if n.strip()],
-        "image": f"../static/images/{recipe_id}.jpg" if image_file else ""
+        "image": f"static/images/{recipe_id}.jpg" if image_file else ""
     }
 
     with open(os.path.join(RECIPES_DIR, f"{recipe_id}.json"), "w", encoding="utf-8") as f:
