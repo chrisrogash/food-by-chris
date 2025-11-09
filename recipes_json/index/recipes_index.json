@@ -1,27 +1,5 @@
 [
   {
-    "id": "002_chilli_con_carne",
-    "prep_time": 10,
-    "cook_time": 50,
-    "name": "002 Chilli Con Carne",
-    "tags": [
-      "gluten_free",
-      "dairy_free",
-      "nut_free"
-    ],
-    "html": "recipes_html/002_chilli_con_carne.html",
-    "image": "../static/images/.jpg"
-  },
-  {
-    "id": "006_",
-    "prep_time": 0,
-    "cook_time": 0,
-    "name": "",
-    "tags": [],
-    "html": "recipes_html/006_.html",
-    "image": ""
-  },
-  {
     "id": "000_chocolate_banana_chiaseed_pudding",
     "prep_time": 10,
     "cook_time": 5,
@@ -33,7 +11,7 @@
       "vegetarian"
     ],
     "html": "recipes_html/000_chocolate_banana_chiaseed_pudding.html",
-    "image": "../static/images/000_chocolate_banana_chiaseed_pudding.jpg"
+    "image": "static/images/000_chocolate_banana_chiaseed_pudding.jpg"
   },
   {
     "id": "001_apple_pie_chiaseed_pudding",
@@ -48,32 +26,20 @@
       "vegan"
     ],
     "html": "recipes_html/001_apple_pie_chiaseed_pudding.html",
-    "image": "../static/images/001_apple_pie_chiaseed_pudding.jpg"
+    "image": "static/images/001_apple_pie_chiaseed_pudding.jpg"
   },
   {
-    "id": "005_test",
-    "prep_time": 12,
-    "cook_time": 245,
-    "name": "test",
-    "tags": [
-      "gluten_free",
-      "dairy_free"
-    ],
-    "html": "recipes_html/005_test.html",
-    "image": "../site/static/images/005_test.jpg"
-  },
-  {
-    "id": "004_chicken_pasta_bake",
+    "id": "002_chilli_con_carne",
     "prep_time": 10,
     "cook_time": 50,
-    "name": "004 Chicken Pasta Bake",
+    "name": "002 Chilli Con Carne",
     "tags": [
       "gluten_free",
       "dairy_free",
       "nut_free"
     ],
-    "html": "recipes_html/004_chicken_pasta_bake.html",
-    "image": "../static/images/.jpg"
+    "html": "recipes_html/002_chilli_con_carne.html",
+    "image": "static/images/.jpg"
   },
   {
     "id": "003_Schnitzel",
@@ -86,6 +52,6 @@
       "gluten_free"
     ],
     "html": "recipes_html/003_Schnitzel.html",
-    "image": "../static/images/003_Schnitzel.jpg"
+    "image": "static/images/003_Schnitzel.jpg"
   }
 ]
