@@ -1,0 +1,43 @@
+{
+      "id": "003_Schnitzel",
+      "name": "003 Schnitzel",
+      "tags": [
+        "dairy_free",
+        "nut_free",
+        "tag_fructose"
+      ],
+      "prep_time": 25,
+      "cook_time": 25,
+      "ingredients": [
+        { "qty": "750g (~2)", "name": "Chicken Fillet" },
+        { "qty": "Some", "name": "Tandaco Stuffing Mix" },
+        { "qty": "Some", "name": "Plain Flour" },
+        { "qty": "2", "name": "Eggs" },
+        { "qty": "2 tsp", "name": "Garlic Powder" },
+        { "qty": "Some", "name": "Oil" },
+        { "qty": "4 pinches", "name": "Salt Flakes" },
+        
+        { "qty": "2 tbsp", "name": "Tomato Puree/Paste" },
+        { "qty": "1 tin", "name": "Red Kidney Beans" },
+        { "qty": "1", "name": "Beef Stock Cube" },
+        { "qty": "<500ml", "name": "Hot Water" },
+        { "qty": "1 cup", "name": "Rice" }
+      ],
+      "instructions": [
+        "Halve chicken fillets",
+        "Prepare bowls for dipping chicken.",
+        "Bowl 1: Combine plain flour and 2 tsp garlic powder.",
+        "Bowl 2: 2 eggs, whisked.",
+        "Bowl 3: Tandaco Stuffing Mix.",
+        "Dip chicken fillets in each bowl, 1, then 2, then 3. Place to the side.",
+        "fill fry pan (~1/4 to 1/2) with oil, place over medium heat.",
+        "Cook coated chicken ~5-10 min each side until browned.",
+        "Once cooked, place schnitzel on a rack to remove excess oil.",
+        "Sprinkle schnitzels with salt flakes."
+      ],
+      "notes":[
+        "Buy ~1.5kg chicken from supermarket, but make sure it has 4 fillets. 2 (halved) for use now, can freeze remaining.",
+        "Makes 4 schnitzels"        
+      ],
+      "image": "static/images/003_Schnitzel.jpg"
+    }
