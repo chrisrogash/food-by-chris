@@ -82,7 +82,7 @@ def sync_to_github():
         commands = [
             ["git", "-C", repo_dir, "add", "."],
             ["git", "-C", repo_dir, "commit", "-m", "Auto-sync from admin panel"],
-            ["git", "-C", repo_dir, "push", "origin", "main"]
+            ["git", "-C", repo_dir, "push", "origin", "master"]
         ]
         for cmd in commands:
             subprocess.run(cmd, check=True)
