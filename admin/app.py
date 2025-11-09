@@ -2,7 +2,7 @@ import os, re, json, subprocess
 from flask import Flask, render_template, request, jsonify
 
 
-app = Flask(__name__, template_folder='.', static_folder="static")
+app = Flask(__name__, template_folder='.', static_folder="../static")
 
 RECIPES_DIR = "/app/recipes_json"
 IMAGES_DIR = "/app/static/images"
