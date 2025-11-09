@@ -10,6 +10,7 @@ git config --global user.name "chrisrogash"
 git config --global user.email "chris.rogash@hotmail.com"
 git config --global core.sshCommand "ssh -i /root/.ssh/id_ed25519 -o StrictHostKeyChecking=no"
 git config --global --add safe.directory /app
+
 # CONNECT WITH GIT
 cd /app
 
