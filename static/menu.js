@@ -2,7 +2,7 @@ const dishList = document.getElementById("dishList");
 const searchBox = document.getElementById("searchBox");
 const tagFilters = document.querySelectorAll("#tagFilters input[type='checkbox']");
 
-fetch("food-by-chris/recipes_json/index/recipes_index.json")
+fetch("/food-by-chris/recipes_json/index/recipes_index.json")
   .then(res => res.json())
   .then(recipes => {
     // Render cards
